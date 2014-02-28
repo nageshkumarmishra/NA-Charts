@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7063ED621875416500187057 /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = 7063ED611875416500187057 /* Car.m */; };
 		709DE3E91875353E0067158C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 709DE3E81875353E0067158C /* Foundation.framework */; };
 		709DE3EC1875353E0067158C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 709DE3EB1875353E0067158C /* main.m */; };
 		709DE3F01875353E0067158C /* Basics.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 709DE3EF1875353E0067158C /* Basics.1 */; };
@@ -26,6 +27,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		7063ED601875416500187057 /* Car.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Car.h; sourceTree = "<group>"; };
+		7063ED611875416500187057 /* Car.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Car.m; sourceTree = "<group>"; };
 		709DE3E51875353E0067158C /* Basics */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Basics; sourceTree = BUILT_PRODUCTS_DIR; };
 		709DE3E81875353E0067158C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		709DE3EB1875353E0067158C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -48,6 +51,8 @@
 		709DE3DC1875353E0067158C = {
 			isa = PBXGroup;
 			children = (
+				7063ED601875416500187057 /* Car.h */,
+				7063ED611875416500187057 /* Car.m */,
 				709DE3EA1875353E0067158C /* Basics */,
 				709DE3E71875353E0067158C /* Frameworks */,
 				709DE3E61875353E0067158C /* Products */,
@@ -139,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7063ED621875416500187057 /* Car.m in Sources */,
 				709DE3EC1875353E0067158C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -251,6 +257,7 @@
 				709DE3F51875353E0067158C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
